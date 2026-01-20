@@ -758,8 +758,8 @@ void Graphics::do_ultrawide_fix() {
     // This disables any kind of pillarboxing and letterboxing.
     // This cannot be directly restored once applied.
     if (set_display_type_method != nullptr) {
-        set_display_type_method->call(sdsk::get_thread_context(), main_view, via::DisplayType::Uniform16x10;
-        
+        set_display_type_method->call(sdk::get_thread_context(), main_view, via::DisplayType::Uniform16x10;
+    }
 
         if (graphics->m_backbuffer_size.has_value()) {
             const auto& size = graphics->m_backbuffer_size.value();
